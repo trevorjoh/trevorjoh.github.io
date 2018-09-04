@@ -1,0 +1,68 @@
+header h1{
+    float: left;
+}
+
+header{
+    background:black;
+    color:white;
+    border-bottom: 10px solid gray;
+    position: sticky;
+    top:.25rem;
+}
+
+header li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+header a:hover{
+    font-weight: bold;
+    color:rgb(200,200,200);
+}
+
+header a{
+    text-decoration: blue;
+    color:white;
+}
+
+
+nav{
+    float: right;
+    margin-top: 10px;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#images li{
+    display: inline-block;
+    margin:30px;
+}
+#showcase{
+    background:url("squirrels.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#homeText{
+    float:left;
+    width:35%;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    font-size:20px;
+}
+#homeGif{
+    margin-top:20px;
+}
+body{
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    background:rgb(210,180,140);
+}
