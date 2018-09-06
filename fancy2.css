@@ -59,6 +59,16 @@ nav{
     margin-top:20px;
 }
 
+#aboutMe{
+    margin-top: 10px;
+    text-align: center;
+    float:left;
+}
+
+.about{
+    text-align: center;
+    float: left;
+}
 header .highlight{
     color:gray;
     font-weight: bold;
